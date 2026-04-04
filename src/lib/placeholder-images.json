@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "sosnack-about",
+      "description": "A vibrant picture of a group of friends enjoying snacks together.",
+      "imageUrl": "https://images.unsplash.com/photo-1606066889831-35faf6fa6ff6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmcmllbmRzJTIwZWF0aW5nfGVufDB8fHx8MTc2MTIwMTIwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "friends eating"
+    },
+    {
+      "id": "basreng",
+      "description": "Crispy fried meatball chips with a savory and spicy kick.",
+      "imageUrl": "https://images.unsplash.com/photo-1667506999146-805370d013f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmcmllZCUyMG1lYXRiYWxsc3xlbnwwfHx8fDE3NjEyMDEyMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fried meatballs"
+    },
+    {
+      "id": "mie-gulung",
+      "description": "Crunchy rolled noodles, a classic snack with a modern twist.",
+      "imageUrl": "https://images.unsplash.com/photo-1679279726940-be5ce80c632c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub29kbGUlMjBzbmFja3xlbnwwfHx8fDE3NjEyMDEyMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "noodle snack"
+    },
+    {
+      "id": "keripik-kaca",
+      "description": "Ultra-thin and crispy 'glass' chips, seasoned to perfection.",
+      "imageUrl": "https://images.unsplash.com/photo-1664288378400-73a6a20720fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnbGFzcyUyMGNoaXBzfGVufDB8fHx8MTc2MTIwMTIwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glass chips"
+    },
+    {
+      "id": "seblak-kering",
+      "description": "A dry version of the popular spicy Seblak, full of flavor.",
+      "imageUrl": "https://images.unsplash.com/photo-1707363625999-2b37f9ca8ad7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3BpY3klMjBjcmFja2Vyc3xlbnwwfHx8fDE3NjEyMDEyMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spicy crackers"
+    },
+    {
+      "id": "makaroni-pedas",
+      "description": "Spicy and crunchy macaroni, an addictive favorite.",
+      "imageUrl": "https://images.unsplash.com/photo-1574636573716-062c8c8c6179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzcGljeSUyMG1hY2Fyb25pfGVufDB8fHx8MTc2MTIwMTIwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spicy macaroni"
+    },
+    {
+      "id": "hero-person",
+      "description": "A young person enjoying a snack, representing the target audience.",
+      "imageUrl": "https://images.unsplash.com/photo-1593642532781-03e5cb29b882?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHBlcnNvbiUyMGVhdGluZyUyMHNuYWNrfGVufDB8fHx8MTcwMTY3NjgwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "young person eating snack"
+    }
+  ]
+}

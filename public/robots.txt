@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sosnack.web.id/sitemap.xml
