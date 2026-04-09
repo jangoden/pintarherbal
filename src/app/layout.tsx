@@ -21,6 +21,23 @@ export const metadata: Metadata = {
   },
   description: 'Pintar Herbal menyediakan berbagai produk herbal pilihan berkualitas tinggi. Solusi sehat alami dengan kemasan modern dan praktis untuk kebutuhan sehari-hari Anda.',
   keywords: ['herbal', 'kesehatan', 'alami', 'pintar herbal', 'obatherbal', 'suplemen', 'sehat', 'modern'],
+  icons: {
+    icon: [
+      { url: '/favicon/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/favicon/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { rel: 'icon', url: '/favicon/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { rel: 'icon', url: '/favicon/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
+  manifest: '/favicon/site.webmanifest',
+  other: {
+    'msapplication-TileColor': '#2d6a4f',
+  },
   openGraph: {
     title: 'Pintar Herbal - Produk Herbal Pilihan, Hidup Sehat Alami',
     description: 'Pintar Herbal menyediakan berbagai produk herbal pilihan berkualitas tinggi.',
@@ -28,7 +45,7 @@ export const metadata: Metadata = {
     siteName: 'Pintar Herbal',
     images: [
       {
-        url: '/images/preview.webp', // Must be an absolute URL
+        url: '/images/preview.webp',
         width: 1200,
         height: 630,
         alt: 'Promotional Banner for Pintar Herbal',
@@ -51,7 +68,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-pt-[var(--header-h)] scroll-smooth">
+    <html lang="id" className="scroll-pt-[var(--header-h)] scroll-smooth">
       <body className={`${firaCondensed.variable} ${firaCondensed.className} font-sans`}>
         <script
           type="application/ld+json"
