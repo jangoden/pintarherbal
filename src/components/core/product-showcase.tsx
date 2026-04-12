@@ -12,22 +12,26 @@ import { motion, Variants } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-// [DIUBAH] Daftar produk baru yang akan ditampilkan
+import albucareImg from '@/images/produk_images/albucare.webp';
+import sendifitImg from '@/images/produk_images/sendifit.webp';
+import kslImg from '@/images/produk_images/kapsul_sehat_lambungku.webp';
+
+// [DIUBAH] Daftar produk baru yang akan ditampilkan menggunakan static import
 const bestSellerProducts = [
   {
     id: 'product-albucare',
     title: 'ALBUCARE',
-    imageUrl: '/images/best-basreng.webp',
+    imageUrl: albucareImg,
   },
   {
-    id: 'product-biosqualene',
-    title: 'BIO SQUALENE',
-    imageUrl: '/images/best-miegulung.webp',
+    id: 'product-sendifit',
+    title: 'SENDIFIT',
+    imageUrl: sendifitImg,
   },
   {
-    id: 'product-sapujagat',
-    title: 'MINYAK SAPU JAGAT',
-    imageUrl: '/images/best-makaroni.webp',
+    id: 'product-ksl',
+    title: 'KAPSUL SEHAT LAMBUNGKU',
+    imageUrl: kslImg,
   },
 ];
 
@@ -52,9 +56,9 @@ export function ProductShowcase() {
             "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/></svg>\")",
         }}
       />
-       {/* Blob shape background */}
-       <div aria-hidden="true" className="absolute inset-x-0 bottom-0 -z-20 opacity-30">
-        <div className="absolute left-1/4 top-0 -translate-x-1/2 w-[50rem] h-[50rem] rounded-full bg-gradient-radial from-primary/10 to-transparent blur-3xl"/>
+      {/* Blob shape background */}
+      <div aria-hidden="true" className="absolute inset-x-0 bottom-0 -z-20 opacity-30">
+        <div className="absolute left-1/4 top-0 -translate-x-1/2 w-[50rem] h-[50rem] rounded-full bg-gradient-radial from-primary/10 to-transparent blur-3xl" />
       </div>
 
       <div className="container px-4 md:px-6">
