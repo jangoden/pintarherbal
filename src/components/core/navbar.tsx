@@ -11,8 +11,8 @@ type NavItem = { name: string; href: string };
 
 const navLinks: NavItem[] = [
   { name: 'Beranda', href: '/' },
-  { name: 'Tentang Kami', href: '/about' },
   { name: 'Produk', href: '/products' },
+  { name: 'Tentang Kami', href: '/about' },
   { name: 'Blog', href: '/blog' },
 ];
 
@@ -44,11 +44,11 @@ export function Navbar() {
         scrolled ? 'py-3' : 'py-5'
       )}
     >
-      <div 
+      <div
         className={cn(
           'container mx-auto flex max-w-6xl items-center justify-between px-4 sm:px-6 md:px-8 rounded-full transition-all duration-500',
-          scrolled 
-            ? 'h-16 bg-background/80 backdrop-blur-lg border border-border/50 shadow-sm' 
+          scrolled
+            ? 'h-16 bg-background/80 backdrop-blur-lg border border-border/50 shadow-sm'
             : 'h-16 bg-transparent'
         )}
       >
@@ -62,7 +62,7 @@ export function Navbar() {
           <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary transition-transform group-hover:scale-105">
             <Leaf className="h-5 w-5" />
           </div>
-          
+
           <span className={cn(
             "font-headline font-bold text-lg tracking-tight transition-colors",
             "text-foreground group-hover:text-primary"

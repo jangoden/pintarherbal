@@ -3,8 +3,6 @@ import { Fira_Sans_Condensed } from 'next/font/google';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './globals.css';
-import { Navbar } from '@/components/core/navbar';
-import { Footer } from '@/components/core/footer';
 
 const firaCondensed = Fira_Sans_Condensed({
   subsets: ['latin'],
@@ -90,11 +88,7 @@ export default function RootLayout({
             ]
           }) }}
         />
-        <div className="relative flex min-h-dvh flex-col">
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </div>
+        {children}
       </body>
     </html>
   );

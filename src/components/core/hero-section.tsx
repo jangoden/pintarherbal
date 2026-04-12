@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import aktorImg from '@/images/aktor.png';
 import { motion, Variants } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
 
@@ -31,7 +32,7 @@ const HeroText = () => (
       </span>
     </motion.div>
 
-    <motion.h1 
+    <motion.h1
       variants={FADE_UP_ANIMATION_VARIANTS}
       className="mt-8 font-headline text-5xl font-extrabold tracking-tight text-foreground sm:text-6xl md:text-7xl lg:text-[5rem] leading-[1.1]"
     >
@@ -41,14 +42,14 @@ const HeroText = () => (
       </span>
     </motion.h1>
 
-    <motion.p 
+    <motion.p
       variants={FADE_UP_ANIMATION_VARIANTS}
       className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground lg:mx-0 sm:text-lg"
     >
       Pintar Herbal menyediakan solusi kesehatan alami dengan produk-produk herbal pilihan yang berkualitas. Dari ekstrak ikan gabus hingga propolis premium, kami berkomitmen menjaga Anda dan keluarga secara aman dan terpercaya.
     </motion.p>
 
-    <motion.div 
+    <motion.div
       variants={FADE_UP_ANIMATION_VARIANTS}
       className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start"
     >
@@ -81,26 +82,26 @@ const HeroImage = () => (
   >
     {/* Animated Glowing Blobs Background */}
     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full z-0 flex items-center justify-center pointer-events-none">
-      <motion.div 
-        animate={{ scale: [1, 1.1, 1], rotate: [0, 90, 0] }} 
-        transition={{ duration: 20, repeat: Infinity, ease: "linear" }} 
-        className="absolute w-64 h-64 md:w-80 md:h-80 bg-primary/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70" 
+      <motion.div
+        animate={{ scale: [1, 1.1, 1], rotate: [0, 90, 0] }}
+        transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+        className="absolute w-64 h-64 md:w-80 md:h-80 bg-primary/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
       />
-      <motion.div 
-        animate={{ scale: [1, 1.2, 1], rotate: [0, -90, 0] }} 
-        transition={{ duration: 25, repeat: Infinity, ease: "linear" }} 
-        className="absolute w-64 h-64 md:w-80 md:h-80 bg-accent/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 -ml-24 mt-24" 
+      <motion.div
+        animate={{ scale: [1, 1.2, 1], rotate: [0, -90, 0] }}
+        transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+        className="absolute w-64 h-64 md:w-80 md:h-80 bg-accent/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 -ml-24 mt-24"
       />
     </div>
 
     {/* Floating Image element */}
-    <motion.div 
+    <motion.div
       className="relative z-10 w-full"
       animate={{ y: [0, -20, 0] }}
       transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
     >
       <Image
-        src="/images/bghero.svg"
+        src={aktorImg}
         alt="Pintar Herbal Hero Image"
         width={700}
         height={700}
@@ -132,7 +133,7 @@ export function HeroSection() {
           WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, transparent 80%)',
         }}
       />
-      
+
       {/* Subtle Noise Texture */}
       <div
         className="absolute inset-0 -z-20 opacity-[0.02] mix-blend-overlay pointer-events-none"
